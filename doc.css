@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family:"Nunito";
+    src: url ("fonts/Nunito.ttf") format("truetype");
+}
+
+body {
+    
+    background-color: beige;
+}
+
+#t1 {
+    color: red;
+    
+}
+
+.odd {
+    color: blue;
+
+}
+
+.even {
+    color: brown;
+
+}
+
+#tt1 {
+    font-family: "Nunito", Arial, sans-serif;
+
+}
