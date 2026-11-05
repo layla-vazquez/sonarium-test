@@ -28,3 +28,59 @@ body {
     font-family: "Nunito", Arial, sans-serif;
 
 }
+
+#ph1{
+    margin: 10px
+}
+
+.box{
+   
+    font-size: 50px;
+    width: 550px;
+    margin: 50px; 
+
+}
+#box1{
+    background-color:rgb(237, 202, 161);
+    border: 2px solid;
+    margin: auto;
+    
+}
+#box2{
+    background-color:rgb(205, 155, 98);
+     border: 2px dotted;
+     margin: left;
+}
+
+#image2{
+    float:left;
+    margin-right: 10px;
+  }
+
+#image1{
+    float: right;
+    margin-left: 10px;
+
+}
+
+#ph2{
+    border: 2px dotted;
+    height: 75px;
+    overflow: auto;
+}
+
+#div{
+    border: 2px solid;
+    background-color: paleturquoise;
+    height:100px;
+    display: block;
+}
+
+#span{
+    border: 2px dotted;
+    background-color:plum;
+    display: block;
+    padding: 25px;
+    align:center;
+
+}
