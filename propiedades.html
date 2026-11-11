@@ -11,13 +11,12 @@
 
 
 <body>
-    <header style="background-color: pink>
-        <h1>Funciones de HTML</h1>
-        
-        <a href=""https://www.youtube.com">Ejemplo1</a>
-        <a href="">Ejemplo1</a>
-        <a href="">Ejemplo2</a>
-        <a href="">Ejemplo3</a>
+    <header style="background-color: #a1c3d5">
+        <h1>This is an html cheat sheet</h1>
+        <a href=""">Home</a>
+        <a href="">About us</a>
+        <a href="">Products</a>
+        <a href="">This header is an example</a>
 
        
     </header>
@@ -118,10 +117,109 @@
     
 <h4 id="tt1">Cambio de font</h4>
 
+<hr>
+<h1> Forms </h1>
+    <form action="ignore" method="POST" enctype="multipart/form-data">
 
-<footer>
-        
+        <label for="username"><b>Username:</b></label>
+        <input type="text" id="username"> <br>
 
+        <label for="password"><b>Password:</b></label>
+        <input type="password" id="password"><br>
+
+        <label for="email"><b>E-mail:</b></label>
+        <input type="email" id="email"><br>
+
+        <label for="phone"><b>Phone number:</b></label>
+        <input type="tel" id="phone"><br>
+
+        <label for="bday"><b> Birthdate:</b></label>
+        <input type="date" id="bday"><br> 
+
+        <label for="quantity"><b>Quantity:</b></label>
+        <input typee="number" id="quantity" min="0" max="99" value="1"><br>
+    
+        <label for="title:"><b>Title:</b></label>
+        <label for="Student">Student</label>
+        <input type="radio" id="Student" value="Student" name="title">
+        <label for="Bachelor">Bachelor</label>
+        <input type="radio" id="Bachelor" value="Bachelor" name="title">
+        <label for="PhD">PhD</label>
+        <input type="radio" id="PhD" value="PhD" name="title"> <br>
+
+        <label for="payement"><b>Payement</b></label>
+        <select>
+            <option value="visa">visa</option>
+            <option value="mastercard">mastercard</option>
+            <option value="giftcard">giftcard</option>
+        </select><br>
+
+        <label for="check this box"><b> Check this box:</b></label>
+        <input type="checkbox" id="check this box"><br>
+
+        <label for="comment"><b> Comment:</b> </label>
+        <textarea id="comment" ></textarea><br>
+
+        <label for="file"><b>File submit:</b> </label>
+        <input type="file" id="file" accept="image/png, image/jpeg"<br>
+
+        <br>
+        <input type="submit" id="username" required> <br>
+        <input type="reset"><br>
+        <imput type="submit"></imput>
+</form>
+
+    <!--Margins = the space around an element-->
+    <h1> Margins</h1>
+    <p id:"ph1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam porro cum necessitatibus nostrum totam commodi, nulla ratione! Odio dicta, illum quisquam commodi neque expedita laboriosam ex assumenda distinctio! Saepe.</p>
+
+        <div class="box" id="box1">Box 1</div>
+        <div class="box" id="box2">Box 2</div>
+    
+<h1>Float property</h1>
+    <p>Esta propiedad permite modificar el encuadre entre imagenes y texto. <i>Ejemplo: </i></p>
+
+ <!--float=allows other elements to flow around it-->
+    <img src="Recursos/gatoparado.png" height="150px" id="image1">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi pariatur debitis illum laboriosam recusandae repellat illo labore placeat! Exercitationem, ullam debitis. Incidunt repellat voluptas corrupti reiciendis sint saepe quia adipisci?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi pariatur debitis illum laboriosam recusandae repellat illo labore placeat! Exercitationem, ullam debitis. Incidunt repellat voluptas corrupti reiciendis sint saepe quia adipisci?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi pariatur debitis illum laboriosam recusandae repellat illo labore placeat! Exercitationem, ullam debitis. Incidunt repellat voluptas corrupti reiciendis sint saepe quia adipisci?</p>    
+
+    <img src="Recursos/gatosalto.png" height="150px" id="image2">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi pariatur debitis illum laboriosam recusandae repellat illo labore placeat! Exercitationem, ullam debitis. Incidunt repellat voluptas corrupti reiciendis sint saepe quia adipisci?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi pariatur debitis illum laboriosam recusandae repellat illo labore placeat! Exercitationem, ullam debitis. Incidunt repellat voluptas corrupti reiciendis sint saepe quia adipisci?</p>
+
+<!--Overflow property: property that sets the desired behaviour when the content does not fit in the desired element box. It sets the behaviour of a content when said content doesn't quite fit-->
+<!--The fypes of overflow are: 
+    visible (doesn't hide text outside margin), hidden (pretty much the same), clip (hides), scroll (adds a scroll bar) and auto (adds the scroll bas only when needed)-->
+<hr>
+<br>
+<h1>Overflow property</h1>
+<p>To box a lot of text and stuff. <i>Example:</i></p>
+    <div id="ph2"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, fugit magni aspernatur, non et earum ullam sed doloribus laudantium quia molestias pariatur dolor nostrum ipsa amet delectus reiciendis provident sit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla possimus doloribus illum, dicta ad quia nam, cumque in est commodi ipsa. Doloribus dicta quas, provident sit laudantium est saepe quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tempora quo nam vel voluptatibus quas. Officiis beatae iusto inventore, mollitia harum vitae consequuntur nulla, reiciendis odio, optio est nesciunt? Amet!</p></div>
+
+<hr>
+<h1>Div and Span</h1>
+    <div id="div">div</div>
+    <span id="span">span</span>
+
+    <!--Display inline-block gives the text permision to appear in the block area, intext will only display the block in text and block will prevent text from getting in the block's area-->
+    <!--Display hidden is useful to make negative space in the page-->
+
+    <!--positions:
+       relative= positioned relative where it is normaly
+       fixed= positioned relaive to the viewport
+       sticky= based on scroll position
+       static= default -->
 
 </body>
+
+
+<footer style="background-color: #a1c3d5">
+    <p>example@gmail</p>
+
+</footer>
+        
 </html>

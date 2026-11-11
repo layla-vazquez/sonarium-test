@@ -1,0 +1,12 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    color: rgb(119, 24, 32);
+    text-shadow: 2px 2px 1px rgb(155, 153, 153);
+}
+
+h3 {
+    color: rgb(137, 36, 53);
+}
