@@ -22,7 +22,8 @@
     </header>
 
     <!--Diferentes funciones de HTML-->
-    <h1>HTML</h1>
+    <h1>Funciones de html y css</h1>
+    <p>Funciones y códigos básicos para utilizar algunas posibilidades que ambos lenguajes permiten.</p>
 <hr>
     <h3>Tamaños de texto</h3>
     <h1>Texto h1</h1>
@@ -80,44 +81,6 @@
     </dl>
 
 <hr>
-
-    <p><h2>Tablas</h2></h1></p>
-
-    <table style="background-color:pink" border="1">
-        <tr style= align=""center">
-            <th>Encabezado 1</th>
-            <th>Encabezado 2</th>
-            <th>Encabezado 3</th>
-            <th>Encabezado 4</th>
-            <th>Encabezado 5</th>
-        </tr>
-        <tr align="center">
-            <td>Dato 1</td>
-            <td>Dato 2</td>
-            <td>Dato 3</td>
-            <td>Dato 4</td>
-            <td>Dato 5</td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <p><h2>Botón</h2></p>
-        <a href="https://google.com" target="_blank" title="google">
-        <button style="font-size:25px; background-color:lightblue; color:black; border-radius:15px">Click here</button>
-        </a>
-
- <hr>
- <h1>Css (funciones)</h1>
-        <h3 id="t1">Texto</h3>
-        <h3 class="odd">Texto 2</h3>
-        <h3 class="even">Texto 3</h3>
-        <h3 class="odd">Texto 4</h3>
-        <h3 class="even">Texto 5</h3>
-    
-<h4 id="tt1">Cambio de font</h4>
-
-<hr>
 <h1> Forms </h1>
     <form action="ignore" method="POST" enctype="multipart/form-data">
 
@@ -147,7 +110,7 @@
         <label for="PhD">PhD</label>
         <input type="radio" id="PhD" value="PhD" name="title"> <br>
 
-        <label for="payement"><b>Payement</b></label>
+        <label for="payement"><b>Payment</b></label>
         <select>
             <option value="visa">visa</option>
             <option value="mastercard">mastercard</option>
@@ -168,6 +131,49 @@
         <input type="reset"><br>
         <imput type="submit"></imput>
 </form>
+<hr>
+
+ <h1>Css (funciones)</h1>
+    <p><h2>Tablas</h2></h1></p>
+
+    <table style="background-color:pink" border="1">
+        <tr style= align=""center">
+            <th>Encabezado 1</th>
+            <th>Encabezado 2</th>
+            <th>Encabezado 3</th>
+            <th>Encabezado 4</th>
+            <th>Encabezado 5</th>
+        </tr>
+        <tr align="center">
+            <td>Dato 1</td>
+            <td>Dato 2</td>
+            <td>Dato 3</td>
+            <td>Dato 4</td>
+            <td>Dato 5</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <p><h2>Botón</h2></p>
+        <a href="https://google.com" target="_blank" title="google">
+        <button style="font-size:25px; background-color:lightblue; color:black; border-radius:15px">Click here</button>
+        </a>
+
+ <hr>
+
+        <h3 id="t1">Texto</h3>
+        <h3 class="odd">Texto 2</h3>
+        <h3 class="even">Texto 3</h3>
+        <h3 class="odd">Texto 4</h3>
+        <h3 class="even">Texto 5</h3>
+    
+<h4 id="tt1">Cambio de font</h4>
+
+<hr>
+
+
+
 
     <!--Margins = the space around an element-->
     <h1> Margins</h1>
@@ -202,17 +208,29 @@
 
 <hr>
 <h1>Div and Span</h1>
-    <div id="div">div</div>
-    <span id="span">span</span>
+    <div id="div">div: división, se muestra en un nível de bloque</div>
+    <span id="span">span: elemento in-line</span>
 
-    <!--Display inline-block gives the text permision to appear in the block area, intext will only display the block in text and block will prevent text from getting in the block's area-->
-    <!--Display hidden is useful to make negative space in the page-->
+    <hr>
+<h1>Positions</h1>
+<p>Display inline-block gives the text permision to appear in the block area, intext will only display the block in text and block will prevent text from getting in the block's area</p>
+<p>Display hidden is useful to make negative space in the page </p>
 
-    <!--positions:
-       relative= positioned relative where it is normaly
-       fixed= positioned relaive to the viewport
-       sticky= based on scroll position
-       static= default -->
+<ul><i> Positions:</i>
+    <li>relative= positioned relative where it is normaly, it's the default</li>
+    <li>fixed= positioned relaive to the viewport, scrolling won't move the element</li>
+    <li>sticky= based on scroll position. It's similar to fixed, however sticky has a margin which disapears when you scroll down.</li>
+    <li>static= default</li> 
+    <li>absolute= positioned relative to its nearest "ancestor". Which means that, if box 2 is created within box 1, if box 1 moves and box 2's position is absolute, it will move with box 1.</li>
+</ul>
+<div id="pos1">1</div>
+
+<p>Además, si se usan las propiedades "top: px" se puede crear espacio negativo encima del bloque, así como "right/left: px" puede agregar espacio negativo horizontalmente.</p>
+
+<hr>
+
+<h1>Background Image</h1>
+<a href="backgroundimage.html" target="blank" title="example">Example here</a>
 
 </body>
 
