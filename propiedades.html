@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type:"image/png" href="Recursos/icon gato.png">
     <title>Document</title>
-    <link rel="stylesheet" href="doc.css"
+    <link rel="stylesheet" href="doc.css">
 
 </head>
 
@@ -157,7 +157,7 @@
 
     <p><h2>Botón</h2></p>
         <a href="https://google.com" target="_blank" title="google">
-        <button style="font-size:25px; background-color:lightblue; color:black; border-radius:15px">Click here</button>
+        <button style="font-size:25px; background-color: lightblue; color:black; border-radius:15px">Click here</button>
         </a>
 
  <hr>
@@ -231,6 +231,84 @@
 
 <h1>Background Image</h1>
 <a href="backgroundimage.html" target="blank" title="example">Example here</a>
+
+<hr>
+<h1>Combinators</h1>
+<p>Combinators explain the relationships between listed selectors.</p>
+<br>
+<ul>
+    <li>space = descendant, anything in the div section</li>
+    <li> > = child, anything which is inside the div section, however it excludes elements in div sections inside the original div section.</li>
+    <li>  ~ = general sibling, "childs" of the document's body, not inside any div sections.</li>
+    <li> + = adjacent sibling, next direct "sibling", still not inside any div section.</li>
+</ul>
+<br>
+<p>Next, there's an example of an adjacent sibling combinator:</p>
+<div id="container">
+    <p>This is 1</p>
+    <p>This is 2</p>
+    <div>
+        <p>This is 3</p>
+    </div>
+</div>
+
+<p>This is 4</p> 
+<p>This is 5</p>
+<hr>
+<br>
+
+<h1>Pseudo-classes</h1>
+    <p>Pseudo classes can alter certain elements and their states when something triggers a change, such as hovering over something. Next, an example of a change of color and size when hoovering, it also becomes grey if visited:</p>
+
+    <a href="https://google.com" target="_blank" title="google">Google</a>
+
+<p>As another example, whenever the next list is hovered over, the color changes:</p>
+        <ul>
+            <li class="uli">this is 1</li>
+            <li class="uli">this is 2</li>
+            <li class="uli">this is 3</li>
+            <li class="uli">this is 4</li>
+            <li class="uli">this is 5</li>
+            <li class="uli">this is 6</li>
+        </ul>
+
+<p>And lastly, the next text displays a new text when hovered over:</p>
+
+<div id="greetings">Hover here
+        <p>Hello</p>
+</div>
+
+<hr>
+<br>
+<h1>Pseudo-elements</h1>
+    <p>Keywords added after a selector that's used to style specific parts of an element. The basi formula is "selector::pseudoelement". Next, the examples use them to: change the first line of a paragraph, change what goes before and after an element (on the list elements), and change the symbols for lists.</p>
+
+<p class="pseudo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam perferendis consectetur voluptatum ab numquam cum quidem obcaecati inventore porro voluptas, nulla illo ducimus excepturi asperiores rem reiciendis, quibusdam debitis ipsum?</p>
+
+    <ul id="fruit">
+        <li id="apple">apple</li>
+        <li id="orange">orange</li>
+        <li id="banana">banana</li>
+    </ul>
+
+<hr>
+<br>
+<h1>Pagination</h1>
+    <p>The method by which a document can get different pages.</p>
+    <a href="backgroundimage.html" target="_blank">Example here</a>
+<hr>
+<br>
+
+    <h1>Dropdown menus</h1>
+
+    <div class="dropdown">
+        <button>Food</button>
+        <div class="content">
+            <a href="">Apple</a>
+            <a href="">Orange</a>
+            <a href="">Banana</a>
+        </div>
+    </div>
 
 </body>
 

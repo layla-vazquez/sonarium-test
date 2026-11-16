@@ -1,0 +1,32 @@
+body {
+    color: aliceblue;
+    background-image: url(Recursos/bckgrndimg.jpg);
+    background-size: 
+    
+}
+
+#text1 {
+    text-align: center;
+
+}
+
+.pagination{
+    text-align: center;
+}
+
+.pagination a{
+    color:aliceblue;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.pagination a.active{
+    background-color: rgb(62, 152, 190);
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active){
+    background-color: rgb(180, 184, 195);
+    border-radius: 5px;
+}
