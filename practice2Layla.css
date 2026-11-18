@@ -1,0 +1,37 @@
+
+.container{
+    display: flex;
+    justify-content: flex-centre;
+    align-content: flex-start;
+    column-gap: 1em;
+
+}
+
+.box{
+    width: 150px;
+    height: 100px;
+    font-size: 2em;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color:red;
+
+}
+
+#box2{
+    background-color:rgb(255, 234, 0);
+
+}
+
+#box3{
+    background-color:rgb(89, 175, 13);
+
+}
+
+#box4{
+    background-color:rgb(130, 85, 124);
+
+}
+
+

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type:"image/png" href="Recursos/icon gato.png">
     <title>Document</title>
-    <link rel="stylesheet" href="doc.css"
+    <link rel="stylesheet" href="doc.css">
 
 </head>
 
@@ -22,7 +22,8 @@
     </header>
 
     <!--Diferentes funciones de HTML-->
-    <h1>HTML</h1>
+    <h1>Funciones de html y css</h1>
+    <p>Funciones y códigos básicos para utilizar algunas posibilidades que ambos lenguajes permiten.</p>
 <hr>
     <h3>Tamaños de texto</h3>
     <h1>Texto h1</h1>
@@ -80,44 +81,6 @@
     </dl>
 
 <hr>
-
-    <p><h2>Tablas</h2></h1></p>
-
-    <table style="background-color:pink" border="1">
-        <tr style= align=""center">
-            <th>Encabezado 1</th>
-            <th>Encabezado 2</th>
-            <th>Encabezado 3</th>
-            <th>Encabezado 4</th>
-            <th>Encabezado 5</th>
-        </tr>
-        <tr align="center">
-            <td>Dato 1</td>
-            <td>Dato 2</td>
-            <td>Dato 3</td>
-            <td>Dato 4</td>
-            <td>Dato 5</td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <p><h2>Botón</h2></p>
-        <a href="https://google.com" target="_blank" title="google">
-        <button style="font-size:25px; background-color:lightblue; color:black; border-radius:15px">Click here</button>
-        </a>
-
- <hr>
- <h1>Css (funciones)</h1>
-        <h3 id="t1">Texto</h3>
-        <h3 class="odd">Texto 2</h3>
-        <h3 class="even">Texto 3</h3>
-        <h3 class="odd">Texto 4</h3>
-        <h3 class="even">Texto 5</h3>
-    
-<h4 id="tt1">Cambio de font</h4>
-
-<hr>
 <h1> Forms </h1>
     <form action="ignore" method="POST" enctype="multipart/form-data">
 
@@ -147,7 +110,7 @@
         <label for="PhD">PhD</label>
         <input type="radio" id="PhD" value="PhD" name="title"> <br>
 
-        <label for="payement"><b>Payement</b></label>
+        <label for="payement"><b>Payment</b></label>
         <select>
             <option value="visa">visa</option>
             <option value="mastercard">mastercard</option>
@@ -168,6 +131,49 @@
         <input type="reset"><br>
         <imput type="submit"></imput>
 </form>
+<hr>
+
+ <h1>Css (funciones)</h1>
+    <p><h2>Tablas</h2></h1></p>
+
+    <table style="background-color:pink" border="1">
+        <tr style= align=""center">
+            <th>Encabezado 1</th>
+            <th>Encabezado 2</th>
+            <th>Encabezado 3</th>
+            <th>Encabezado 4</th>
+            <th>Encabezado 5</th>
+        </tr>
+        <tr align="center">
+            <td>Dato 1</td>
+            <td>Dato 2</td>
+            <td>Dato 3</td>
+            <td>Dato 4</td>
+            <td>Dato 5</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <p><h2>Botón</h2></p>
+        <a href="https://google.com" target="_blank" title="google">
+        <button style="font-size:25px; background-color: lightblue; color:black; border-radius:15px">Click here</button>
+        </a>
+
+ <hr>
+
+        <h3 id="t1">Texto</h3>
+        <h3 class="odd">Texto 2</h3>
+        <h3 class="even">Texto 3</h3>
+        <h3 class="odd">Texto 4</h3>
+        <h3 class="even">Texto 5</h3>
+    
+<h4 id="tt1">Cambio de font</h4>
+
+<hr>
+
+
+
 
     <!--Margins = the space around an element-->
     <h1> Margins</h1>
@@ -202,17 +208,107 @@
 
 <hr>
 <h1>Div and Span</h1>
-    <div id="div">div</div>
-    <span id="span">span</span>
+    <div id="div">div: división, se muestra en un nível de bloque</div>
+    <span id="span">span: elemento in-line</span>
 
-    <!--Display inline-block gives the text permision to appear in the block area, intext will only display the block in text and block will prevent text from getting in the block's area-->
-    <!--Display hidden is useful to make negative space in the page-->
+    <hr>
+<h1>Positions</h1>
+<p>Display inline-block gives the text permision to appear in the block area, intext will only display the block in text and block will prevent text from getting in the block's area</p>
+<p>Display hidden is useful to make negative space in the page </p>
 
-    <!--positions:
-       relative= positioned relative where it is normaly
-       fixed= positioned relaive to the viewport
-       sticky= based on scroll position
-       static= default -->
+<ul><i> Positions:</i>
+    <li>relative= positioned relative where it is normaly, it's the default</li>
+    <li>fixed= positioned relaive to the viewport, scrolling won't move the element</li>
+    <li>sticky= based on scroll position. It's similar to fixed, however sticky has a margin which disapears when you scroll down.</li>
+    <li>static= default</li> 
+    <li>absolute= positioned relative to its nearest "ancestor". Which means that, if box 2 is created within box 1, if box 1 moves and box 2's position is absolute, it will move with box 1.</li>
+</ul>
+<div id="pos1">1</div>
+
+<p>Además, si se usan las propiedades "top: px" se puede crear espacio negativo encima del bloque, así como "right/left: px" puede agregar espacio negativo horizontalmente.</p>
+
+<hr>
+
+<h1>Background Image</h1>
+<a href="backgroundimage.html" target="blank" title="example">Example here</a>
+
+<hr>
+<h1>Combinators</h1>
+<p>Combinators explain the relationships between listed selectors.</p>
+<br>
+<ul>
+    <li>space = descendant, anything in the div section</li>
+    <li> > = child, anything which is inside the div section, however it excludes elements in div sections inside the original div section.</li>
+    <li>  ~ = general sibling, "childs" of the document's body, not inside any div sections.</li>
+    <li> + = adjacent sibling, next direct "sibling", still not inside any div section.</li>
+</ul>
+<br>
+<p>Next, there's an example of an adjacent sibling combinator:</p>
+<div id="container">
+    <p>This is 1</p>
+    <p>This is 2</p>
+    <div>
+        <p>This is 3</p>
+    </div>
+</div>
+
+<p>This is 4</p> 
+<p>This is 5</p>
+<hr>
+<br>
+
+<h1>Pseudo-classes</h1>
+    <p>Pseudo classes can alter certain elements and their states when something triggers a change, such as hovering over something. Next, an example of a change of color and size when hoovering, it also becomes grey if visited:</p>
+
+    <a href="https://google.com" target="_blank" title="google">Google</a>
+
+<p>As another example, whenever the next list is hovered over, the color changes:</p>
+        <ul>
+            <li class="uli">this is 1</li>
+            <li class="uli">this is 2</li>
+            <li class="uli">this is 3</li>
+            <li class="uli">this is 4</li>
+            <li class="uli">this is 5</li>
+            <li class="uli">this is 6</li>
+        </ul>
+
+<p>And lastly, the next text displays a new text when hovered over:</p>
+
+<div id="greetings">Hover here
+        <p>Hello</p>
+</div>
+
+<hr>
+<br>
+<h1>Pseudo-elements</h1>
+    <p>Keywords added after a selector that's used to style specific parts of an element. The basi formula is "selector::pseudoelement". Next, the examples use them to: change the first line of a paragraph, change what goes before and after an element (on the list elements), and change the symbols for lists.</p>
+
+<p class="pseudo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam perferendis consectetur voluptatum ab numquam cum quidem obcaecati inventore porro voluptas, nulla illo ducimus excepturi asperiores rem reiciendis, quibusdam debitis ipsum?</p>
+
+    <ul id="fruit">
+        <li id="apple">apple</li>
+        <li id="orange">orange</li>
+        <li id="banana">banana</li>
+    </ul>
+
+<hr>
+<br>
+<h1>Pagination</h1>
+    <p>The method by which a document can get different pages.</p>
+    <a href="backgroundimage.html" target="_blank">Example here</a>
+<hr>
+<br>
+
+    <h1>Dropdown menus</h1>
+
+    <div class="dropdown">
+        <button>Food</button>
+        <div class="content">
+            <a href="">Apple</a>
+            <a href="">Orange</a>
+            <a href="">Banana</a>
+        </div>
+    </div>
 
 </body>
 
