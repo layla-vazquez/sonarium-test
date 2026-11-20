@@ -5,47 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox</title>
     <link rel="stylesheet" href="practice2Layla.css">
+    <link rel="icon" type="image/jpeg" href="Recursos/gato.jpeg">
 </head>
 
 <body>
- <header style="background-color: "beige">
-        <h1>CSS Flexbox cheetsheet</h1>
-        <a href="#rows">Rows</a>
-        <a href="">Justify content</a>
-        <a href="">Products</a>
-        <a href="">This header is an example</a>
+    <h1 id="title">Flexbox</h1>
+    <nav class="navbar">
+    <ul>
+        <li><a href="#concepts">Concepts</a></li>
+        <li><a href="#command">Command</a></li>
+        <li><a href="#direction">Direction</a></li>
+        <li><a href="#justify">Justify</a></li>
+        <li><a href="#Other">Other</a></li>
+    </ul>
+    </nav>
 
-       
-    </header>
-    <!--Stuff the page has to have: header, footer and at least 5 sections inside of the body-->
-    <br>
-    <hr>
+
+   
     <h1>What's <i>flexbox</i> for?</h1>
-    <p>It's a method to help you distribute the organisation and set space in between certain elements. Unlike another methods, <i>flexbox</i> allows you to modify elements as a group. An example of a group manipulated with flexbox is the following:
-    
- 
-    <br>
+    <p>    <div id="img">
+<img src="Recursos/panda.jpg" height="80px">
+</div>It's a method to help you distribute the organisation and set space in between certain elements. Unlike another methods, <i>flexbox</i> allows you to modify elements as a group. The main idea is that with flexbox, we can be able to configure the whole layout of the html code. An example of a group manipulated with flexbox is the following:</p>
+        
 
+ 
+<br>
     <div class="container">
         <div class="box" id="box1">1</div>
         <div class="box" id="box2">2</div>
         <div class="box" id="box3">3</div>
         <div class="box" id="box4">4</div>
     </div>
-<br>
-<hr>
+    <br>
+    <hr>
+
+<section id="concepts">
+ <h1>Important concepts to grasp</h1>
+    
+    <ul>
+    <li><p>Flex-direction: Flexbox allows you to set a directive—for example, defining whether elements should be displayed in rows or columns. To do this, we use:</p></li>
+
+    <li><p>Flex-wrap: Controls whether the items within a flex container are arranged in a single line or can be distributed across multiple lines when there is not enough available </p></li>
+
+    <li><p>Flex-flow: Allows you to combine the two aforementioned properties into a single one.</p></li>
+
+    </ul>
+    </section>
+
+    <br>
+    <hr>
+<section id="command">
 <h1>How to start using it</h1>
 <p>To enable <b>Flexbox</b>, the command is the following:</p>
 
     <img src="Recursos/screenshot.jpg" height="150px" id="image2">
+</section>
 
- <br>
+<br>
 <hr>
-<h1>Different uses of Flexboxes</h1>
+<h1>Direction</h1>
+<section id="direction">
 <p>There are different ways of arranging the order of elements with Flexbox. Such as the following:</p>
 
-<section id="rows">
-<p2><b>Rows</b></p2>
+<p2><b>Row</b></p2>
 <br>
 <br>
 <img src="Recursos/rowflexbox.jpg">
@@ -73,7 +95,9 @@
 <img src="Recursos/columnreverseflexbox.jpg">
 <hr>
 <br>
+</section>
 
+<section id="justify">
     <h1>Justify content</h1>
 
     <p2><b>Flex-start</b></p2>
@@ -98,10 +122,37 @@
     <p2><b>Space-evenly</b></p2>
     <p>The same as before, but the space is even.</p>
 
-    <h1>Css setup</h1>
-    <p>Cross axis: the y-axis. It can be altered by using the align-items in the css document</p>
-
 </section>
 
+<hr>
+
+<section id="Other">
+
+    <h1>Other useful features</h1>
+
+    <p2><b>Self-align</b></p2>
+    <p>Another crucial tool flexfox provides is the possibility of aligning one of the elements independently from the others. This will need a class to work.</p>
+    <img src="Recursos/alignself.jpg">
+
+    <p2><b>Order</b></p2>
+    <p>Controls the visual sequence of flex items without changing the HTML order. Default is `0`; lower numbers appear earlier and higher numbers appear later (negative values are allowed).
+</p>
+    <img src="Recursos/order.jpg">
+
+    <p2><b>Flex-grow</b></p2>
+    <p>This setting align  the boxes to the center.</p>
+    <img src="Recursos/justifybaseflexbox.jpg">
+
+    <p2><b>Flex-shrink</b></p2>
+    <p>Defines how much a flex item can shrink when there isn't enough space along the main axis. Default is `1` (can shrink); `0` prevents it from shrinking below its base size.</p>
+    <img src="Recursos/shrink.jpg">
+    </section>
+<br>
+<br>
+<br>
 </body>
+
+<footer>
+    <p>That's pretty much it</p>
+</footer>
 </html>

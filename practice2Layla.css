@@ -1,9 +1,14 @@
+body{
+    background-color: rgb(40, 42, 56);
+    color: aliceblue;
+}
 
 .container{
     display: flex;
-    justify-content: flex-centre;
+    justify-content: center;
     align-content: flex-start;
     column-gap: 1em;
+
 
 }
 
@@ -39,3 +44,54 @@ html {
 
 }
 
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(74, 65, 66);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.navbar a:hover{
+    background-color: rgb(92, 86, 87);
+}
+
+.navbar li{
+    float: left;
+
+}
+
+footer{
+    padding:2px;
+    background-color: rgb(92, 86, 87);
+    color:aliceblue;
+    border-radius: 5px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#title{
+    background-color: rgb(96, 83, 86);
+    padding:15px;
+    border-radius: 2px;
+    color:aliceblue;
+
+}
+
+#img{
+    float: right;
+}
