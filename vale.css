@@ -1,0 +1,123 @@
+
+@font-face {
+    font-family: 'MandelaVCR';
+    src: url('fonts/VCR_OSD_MONO_1.001.ttf');
+}
+
+body {
+    background-color: #050000;
+    color: #e0e0e0;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px 8%;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'MandelaVCR', monospace;
+    font-size: 65px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    text-shadow: -3px 0 #ff0000, 3px 0 rgb(30, 182, 172);
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.nav-links a {
+    font-family: 'MandelaVCR', monospace;
+    font-size: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ff0000;
+    padding: 8px 16px;
+    margin: 0 8px;
+}
+
+.nav-links a:hover {
+    background-color: #ff0000;
+    color: #000000;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    padding: 25px;
+    border: 1px solid #333333;
+    background-color: #0d0205;
+    font-size: 18px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+    width:95%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    background-color: #000000;
+    border: 1px solid #ff0000;
+    color: #ffffff;
+    font-family: 'Courier New', monospace;
+
+}
+
+seccion-card{
+    background-color: #0a0204;
+    border-left: 4px solid #ff0000;
+    padding:35px;
+    margin:30px auto;
+    max-width: 900px;
+}
+
+h3{
+    font-family: 'MandelaVCR', monospace;
+    font-size: 38px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: -2px 0 #ff0000, 2px 0 rgb(177, 60, 212);
+    margin-top: 0;
+}
+
+p, li{
+    color: #cccccc;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #ff0000, transparent);
+    margin: 50px 0;
+}
+
+img{
+     display: block;
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #ff0000;;
+    height: auto;
+    margin: 25px auto 0 auto;
+    filter: grayscale(80%) contrast(150%) brightness(85%);
+}
+
+footer{
+    color: #777777;
+    font-size: 14px;
+    border-top: 1px solid #333333;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #ff0000;
+    text-decoration: none;
+    font-family: 'MandelaVCR', monospace;
+    font-size: 20px;
+}
